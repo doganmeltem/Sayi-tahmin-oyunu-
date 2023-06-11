@@ -1,8 +1,8 @@
-
 import random
 sayi = random.randint(1,100)
 
-hak =5
+hak = int(input('kac hak kullanmak istersiniz:'))
+
 while hak>0 :
     hak-=1
     tahmin=int(input('tahmin: '))
@@ -18,7 +18,5 @@ while hak>0 :
         print('asagı')
 
     if hak ==0:
-        print(f" hakkınız bitti. tutulan sayi:{sayi}")
-
-
+        print(f"hakkınız bitti. tutulan sayi:{sayi}")
 
